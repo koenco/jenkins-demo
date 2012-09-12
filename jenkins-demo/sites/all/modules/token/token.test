@@ -525,7 +525,7 @@ class TokenTaxonomyTestCase extends TokenTestHelper {
     return $term;
   }
 }
-
+/*
 class TokenUserTestCase extends TokenTestHelper {
   protected $account = NULL;
 
@@ -606,7 +606,7 @@ class TokenUserTestCase extends TokenTestHelper {
     );
     $this->assertTokens('user', array('user' => $anonymous), $tokens);
   }
-}
+}*/
 
 class TokenEntityTestCase extends TokenTestHelper {
   public static function getInfo() {
