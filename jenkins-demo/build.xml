@@ -126,6 +126,7 @@
       <arg value="${drush.makefile}"/>
       <!-- arg value="${buildroot}/${drupal.docroot}"/-->
       <arg value="${buildroot}"/>
+      <arg value="--prepare-install"/>
     </exec>
   </target>
 
