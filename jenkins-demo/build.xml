@@ -136,7 +136,6 @@
           dir="${buildroot}/${drupal.docroot}">
       <!-- TODO: add language support -->
       <arg value="site-install"/>
-      <arg value="${drush.install_profile}"/>
       <arg value="--db-url=${drush.mysql}"/>
       <arg value="--account-name=${drush.uname}"/>
       <arg value="--account-pass=${drush.upwd}"/>
