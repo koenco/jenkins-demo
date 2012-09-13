@@ -134,7 +134,11 @@
   <target name="drush_siteinstall">
     <exec executable="${drush.bin}"
           failonerror="true"
-          dir="${buildroot}/${drupal.docroot}">
+          dir="${buildroot}">
+  <!-- target name="drush_siteinstall">
+    <exec executable="${drush.bin}"
+          failonerror="true"
+          dir="${buildroot}/${drupal.docroot}"-->
       <!-- TODO: add language support -->
       <arg value="site-install"/>
       <arg value="--db-url=${drush.mysql}"/>
