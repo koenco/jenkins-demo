@@ -144,7 +144,7 @@
     </exec>
   </target>
   <target name="run_simpletests">
-   <exec dir="${basedir}/htdocs"
+   <exec dir="${basedir}"
     executable="php"
     failonerror="true">
     <arg line="scripts/run-tests.sh --php /usr/bin/php --url http://localhost/workspace3/jenkins-demo
