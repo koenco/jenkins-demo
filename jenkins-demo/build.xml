@@ -124,7 +124,8 @@
       <arg value="make"/>
       <!-- TODO: add language support -->
       <arg value="${drush.makefile}"/>
-      <arg value="${buildroot}/${drupal.docroot}"/>
+      <!-- arg value="${buildroot}/${drupal.docroot}"/-->
+      <arg value="${buildroot}"/>
     </exec>
   </target>
 
