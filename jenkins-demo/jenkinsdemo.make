@@ -3,8 +3,6 @@ api = 2
  
 projects[] = drupal
 
-
-
 ; Download profile dependencies
 ; ---------------------------
 
